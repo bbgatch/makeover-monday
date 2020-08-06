@@ -5,9 +5,9 @@ date: 2020-08-03
 category: makeover-monday
 ---
 
-## 2020-08-03 #MakeoverMonday
+This #MakeoverMonday we're looking at publicly available travel statistics from the UK Office for National Statistics (ONS). Data is only available through March, but it shows the enormous impact of the coronavirus pandemic on international travel. <!--more-->
 
-This Makeover Monday we're looking at publicly available travel statistics from the UK Office for National Statistics. Data is only available through March, but it shows the enormous impact of the coronavirus pandemic on international travel. 
+## 2020-08-03 #MakeoverMonday
 
 ## Data Cleaning and Preparation
 The [original data](https://www.ons.gov.uk/peoplepopulationandcommunity/leisureandtourism/timeseries/gmax/ott) was in .xls format and it contained multiple aggregations (annual, quarterly, monthly) all listed together, so I used Python and [Pandas](https://pandas.pydata.org/) to clean and prepare the data.
